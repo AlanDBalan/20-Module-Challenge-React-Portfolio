@@ -8,16 +8,17 @@ import Contact from './components/Contact';
 
 
 const App = () => {
-    return (
-        <div>
-          <Header /> {Header}
-          <main>
-            <AboutMe /> {AboutMe}
-            <Portfolio /> {Portfolio}
-            <Contact /> {Contact}
-          </main>
-        </div>
-      );
-    };
+  return (
+    <Router>
+      <div>
+        <Header />
+        <Route exact path="/" component={AboutMe} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
