@@ -309,6 +309,11 @@ footer {
     #about {
         z-index: 3;
     }
+
+    #scroll-to-stop {
+        scroll-margin-top: 200px; /* Adjust this value as needed */
+    }
+
     #forehead   {
         z-index: 0;
         position: static;
