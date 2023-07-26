@@ -1,30 +1,62 @@
 import React from 'react';
+import Project from './Project';
 
 const Portfolio = () => {
   return (
     <div>
-      <figure id="portfolio" class="image-eyes" alt="Alan's eyes"></figure>
+      <figure id="portfolio" className="image-eyes" alt="Alan's eyes"></figure>
       <section id="port">
         <h2>My Portfolio</h2>
-        <h3>
-          <span>Code Refactoring</span><span>Project 2</span></h3>
-        <div class="project">
-          <a href="https://alandbalan.github.io/01-HTML-CSS-and-Git-Code-Refactor/">
-            <img src="./assets/images/Horiseon image.jpg" alt="First Project-Code Refactoring"></img>
-          </a>
-          <a href="">
-            <img src="./assets/images/alan background.remini-enhanced.jpg" alt="Placeholder"></img>
-          </a>
-        </div>
-        <h3>
-          <span>Project 3</span><span>Project 4</span></h3>
-        <div class="project2">
-          <a href="">
-            <img src="./assets/images/alan background.remini-enhanced.jpg" alt="Placeholder"></img></a>
-          <a href="">
-            <img src="./assets/images/alan background.remini-enhanced.jpg" alt="Placeholder"></img>
-          </a>
-        </div>
+
+        {/* Project 1 */}
+        <Project
+          title="Code Refactoring"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133567685901434911/image.png"
+          image1Alt="First Project - Code Refactoring"
+          link1="https://alandbalan.github.io/01-HTML-CSS-and-Git-Code-Refactor/"
+
+        />
+
+        {/* Project 2 */}
+        <Project
+          title="Advanced CSS Challenge: Professional Portfolio"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133566365077360670/image.png"
+          image1Alt="Placeholder"
+          link1="https://alandbalan.github.io/02-Advanced-CSS-Style-Portfolio-Project/"
+        />
+
+        {/* Project 2 */}
+        <Project
+          title="Advanced CSS Challenge: Professional Portfolio"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133566365077360670/image.png"
+          image1Alt="Placeholder"
+          link1="https://alandbalan.github.io/02-Advanced-CSS-Style-Portfolio-Project/"
+        />
+
+                {/* Project 2 */}
+                <Project
+          title="Advanced CSS Challenge: Professional Portfolio"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133566365077360670/image.png"
+          image1Alt="Placeholder"
+          link1="https://alandbalan.github.io/02-Advanced-CSS-Style-Portfolio-Project/"
+        />
+
+                {/* Project 2 */}
+                <Project
+          title="Advanced CSS Challenge: Professional Portfolio"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133566365077360670/image.png"
+          image1Alt="Placeholder"
+          link1="https://alandbalan.github.io/02-Advanced-CSS-Style-Portfolio-Project/"
+        />
+        
+        {/* Project 2 */}
+        <Project
+          title="Advanced CSS Challenge: Professional Portfolio"
+          image1Src="https://cdn.discordapp.com/attachments/1086145365008461885/1133566365077360670/image.png"
+          image1Alt="Placeholder"
+          link1="https://alandbalan.github.io/02-Advanced-CSS-Style-Portfolio-Project/"
+        />
+        
       </section>
     </div>
   );

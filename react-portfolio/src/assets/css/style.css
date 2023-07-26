@@ -25,6 +25,22 @@ a {
     color: #007bff;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Scrolling effect */
+
+/* Class to apply the slide-up effect when entering */
+.section.slide-enter {
+    transform: translateY(100%);
+  }
+
+.section {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+  }
+
 
 /* Header Styles */
 header {
@@ -134,7 +150,7 @@ nav ul li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #f9f9f9;
     position: relative;
-    top: 330px;
+    top: 178px;
     justify-content: center;
     align-content: center;
     display: flex;
@@ -179,7 +195,7 @@ nav ul li a {
     top: 40px;
 }
 
-.Paragraph {
+#Paragraph {
     display: flex;
     text-align: center;
     font-size: x-large;
@@ -208,20 +224,7 @@ nav ul li a {
 
 .project img {
     max-width: 100vh;
-    height: 325px;
-    margin-bottom: 10px;
-}
-
-.project2 {
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-}
-
-.project2 img {
-    max-width: 100vh;
-    height: 250px;
+    height: 500px;
     margin-bottom: 10px;
 }
 
