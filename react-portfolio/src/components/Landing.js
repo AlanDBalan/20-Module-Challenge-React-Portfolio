@@ -4,9 +4,9 @@ const Landing = () => {
   return (
     <div>
     <figure id="home" className="image-headshot" alt="Alan himself"></figure>
-        <home id="landing">
+        <div id="landing">
             <li id="welcome" ><a href="#about"></a>Hi, I'm Alan.</li>
-                </home>
+                </div>
     </div>
   );
 };
