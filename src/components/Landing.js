@@ -5,7 +5,7 @@ const Landing = () => {
     <div>
     <figure id="home" className="image-headshot" alt="Alan himself"></figure>
         <div id="landing">
-            <li id="welcome" ><a href="#about"></a>Hi, I'm Alan.</li>
+            <li id="welcome" >Hi, I'm Alan.</li>
                 </div>
     </div>
   );
